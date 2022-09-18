@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import AddressForm from "./components/AddressForm";
+import StoreListing from "./components/StoreListing";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <TopBar />
+      <AddressForm />
+      <StoreListing />
     </div>
   );
 }
